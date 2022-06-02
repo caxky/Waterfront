@@ -1,0 +1,37 @@
+import './Navigation.scss';
+import { Navbar, Nav, Container, Button, Row } from 'react-bootstrap';
+
+export default function Navigation() {
+  return (
+    <>
+      <Row className='ms-auto pe-2 py-1 text-end'>
+        <span>{"(613) 123-4567"} | {"contact@waterfrontmanagement.ca"}</span>
+      </Row>
+      <Navbar bg="light" variant="light" expand="md">
+        <Container>
+          <Navbar.Brand href="#home">
+            <img
+              src='logo.svg'
+              width='40'
+              height='40'
+              className="d-inline-block align-top"
+              alt="Waterfront management logo"
+            >
+            </img>
+          </Navbar.Brand>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav className="m-auto">
+              <Nav.Link href="#home" className='mx-2'>Home</Nav.Link>
+              <Nav.Link href="#about" className='mx-2'>About Us</Nav.Link>
+              <Nav.Link href="#values" className='mx-2'>Our Values</Nav.Link>
+              <Nav.Link href="#staff" className='mx-2'>Our Staff</Nav.Link>
+              <Nav.Link href="#pricing" className='mx-2'>Pricing</Nav.Link>
+            </Nav>
+            <Button href='#values'>BOOK NOW</Button>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
+    </>
+  )
+}
