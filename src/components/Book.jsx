@@ -1,7 +1,21 @@
+import { useState, useEffect } from 'react';
 import './Book.scss';
-import { Row, Col, Form, Button } from 'react-bootstrap';
+import { Row, Col, Form, Button, Modal } from 'react-bootstrap';
 
 export default function Book() {
+  const [bookSuccess, setBookSuccess] = useState(false);
+
+  const handleClose = () => {
+    setBookSuccess(false);
+    document.body.style.overflow = 'unset';
+  };
+  const handleShow = () => {
+    setBookSuccess(true);
+    if (typeof window != 'undefined' && window.document) {
+      document.body.style.overflow = 'hidden';
+    }
+  };
+
   return (
     <div className='my-5 py-2 book' id='book'>
       <div className='header-wrap'>
@@ -56,11 +70,26 @@ export default function Book() {
         </div>
 
         <div className='text-end mt-3'>
-          <Button type='submit'>
+          <Button type='submit' onClick={handleShow}>
             BOOK NOW
           </Button>
         </div>
       </Form>
+
+      <Modal show={bookSuccess} onHide={handleClose} centered>
+        <Modal.Header closeButton>
+          <Modal.Title>Booking Confirmed</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          Thank you for booking an appointment with us! Expect to hear back from us within 24 hours.<br/><br/>
+          If there are any issues or changes with you booking you will be notified by the email and phone number provided.
+        </Modal.Body>
+        <Modal.Footer>
+          <Button variant="primary" onClick={handleClose}>
+            Close
+          </Button>
+        </Modal.Footer>
+      </Modal>
     </div>
   )
 }
