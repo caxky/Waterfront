@@ -3,7 +3,7 @@ import { Row, Col, Card, Button } from 'react-bootstrap';
 
 export default function Staff() {
   return (
-    <div className='staff' id='staff'>
+    <div className='my-5 py-2 staff' id='staff'>
       <h2 className='text-center my-5'>OUR STAFF</h2>
       <Row className='d-flex'>
         <Col>
@@ -46,7 +46,7 @@ export default function Staff() {
         </Col>
       </Row>
       
-      <Row className='mx-auto mt-5 wrapper'>
+      <Row className='mx-auto my-5 wrapper'>
         <Button>BOOK NOW</Button>
       </Row>
     </div>

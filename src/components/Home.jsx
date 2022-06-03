@@ -3,7 +3,7 @@ import { Button, Col } from 'react-bootstrap';
 
 export default function Home() {
   return (
-    <div className='home' id='home'>
+    <div className='my-5 py-2 home' id='home'>
       <Col className='mx-auto text-center'>
         <img
           src='logo.svg'

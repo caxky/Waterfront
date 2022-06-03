@@ -3,7 +3,7 @@ import { Row, Col, Card, Button } from 'react-bootstrap';
 
 export default function Values() {
   return (
-    <div className='values' id='values'>
+    <div className='my-5 py-2 values' id='values'>
       <h2 className='text-center my-5'>OUR VALUES</h2>
       <Row className='d-flex'>
         <Col>
@@ -40,8 +40,8 @@ export default function Values() {
         </Col>
       </Row>
       
-      <Row className='mx-auto mt-5 wrapper'>
-        <Button>LEARN MORE</Button>
+      <Row className='mx-auto my-5 wrapper'>
+        <Button variant="outline-dark">LEARN MORE</Button>
       </Row>
     </div>
   )
