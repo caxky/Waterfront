@@ -3,7 +3,7 @@ import { Row, Col, Card, Button } from 'react-bootstrap';
 
 export default function Values() {
   return (
-    <div className='values'>
+    <div className='values' id='values'>
       <h2 className='text-center my-5'>OUR VALUES</h2>
       <Row className='d-flex'>
         <Col>

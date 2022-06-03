@@ -3,7 +3,7 @@ import { Row, Col } from 'react-bootstrap';
 
 export default function About() {
   return (
-    <>
+    <div id='about'>
       <Row className='p-2'>
         <h2 className='text-center mt-5'>ABOUT US</h2>
         <Col xl={12} xxl={7} className='p-5'>
@@ -60,6 +60,6 @@ export default function About() {
           </Col>
         </Col>
       </Row>
-    </>
+    </div>
   )
 }
