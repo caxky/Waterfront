@@ -2,8 +2,10 @@
 
 .btn-primary { @include button-variant(#3599B5, #3599B5, white); }
 
-.row {
-  background-color: #3599B5;
-  color: white;
-  font-size: 14px;
+.navigation {
+  .row {
+    background-color: #3599B5;
+    color: white;
+    font-size: 14px;
+  }
 }

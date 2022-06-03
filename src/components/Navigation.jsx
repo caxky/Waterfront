@@ -3,7 +3,7 @@ import { Navbar, Nav, Container, Button, Row } from 'react-bootstrap';
 
 export default function Navigation() {
   return (
-    <>
+    <div className='navigation'>
       <Row className='ms-auto pe-2 py-1 text-end'>
         <span>{"(613) 123-4567"} | {"contact@waterfrontmanagement.ca"}</span>
       </Row>
@@ -32,6 +32,6 @@ export default function Navigation() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-    </>
+    </div>
   )
 }

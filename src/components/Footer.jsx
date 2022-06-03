@@ -1,10 +1,12 @@
 import './Footer.scss';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Row } from 'react-bootstrap';
 
 export default function Footer() {
   return (
-    <Row className='m-auto text-center'>
-      <span>Copyright © 2022 Waterfront Management Inc.</span>
-    </Row>
+    <div className='footer'>
+      <Row className='mx-auto py-1 text-center'>
+        <span>Copyright © 2022 Waterfront Management Inc.</span>
+      </Row>
+    </div>
   )
 }
