@@ -1,5 +1,5 @@
 import './Book.scss';
-import { Row, Col, Form } from 'react-bootstrap';
+import { Row, Col, Form, Button } from 'react-bootstrap';
 
 export default function Book() {
   return (
@@ -29,7 +29,7 @@ export default function Book() {
             <option value="3">$750,000 - $1,499,999</option>
           </Form.Select>
         </Form.Group>
-        
+
         <Form.Group>
           <Form.Select>
             <option selected>Choose an expert</option>
@@ -53,6 +53,12 @@ export default function Book() {
             </Form.Group>
             <Form.Control type="date" placeholder='Select a date'></Form.Control>
           </Col>
+        </div>
+
+        <div className='text-end mt-3'>
+          <Button type='submit'>
+            BOOK NOW
+          </Button>
         </div>
       </Form>
     </div>
