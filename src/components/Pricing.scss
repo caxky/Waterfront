@@ -1,0 +1,41 @@
+.pricing {
+  .row {
+    margin: auto;
+    width: 70%;
+  }
+
+  .card {
+    border: 1px solid black;
+
+    #card-1 {
+      background-color: #ABD2FF;
+    }
+
+    #card-2 {
+      background-color: #4B9CE3;
+    }
+
+    #card-3 {
+      background-color: #266EBF;
+      color: white;
+    }
+
+    .card-body {
+      padding: 0;
+    }
+
+    .card-title {
+      border-bottom: 1px solid black;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      width: 100%;
+    }
+
+    .card-text {
+      border-top: 1px solid black;
+      padding-top: 10px;
+      padding-bottom: 5px;
+      margin-top: 5px;
+    }
+  }
+}
