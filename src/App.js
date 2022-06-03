@@ -6,6 +6,7 @@ import About from './components/About';
 import Values from './components/Values';
 import Staff from './components/Staff';
 import Pricing from './components/Pricing';
+import Book from './components/Book';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Values/>
       <Staff/>
       <Pricing/>
+      <Book/>
       <Footer/>
     </div>
   );
