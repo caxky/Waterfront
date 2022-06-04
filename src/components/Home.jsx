@@ -10,7 +10,7 @@ export default function Home() {
           className="d-inline-block align-top home-logo"
           alt="Waterfront management logo"
         ></img>
-        <h1 className='mt-4'>Wealthfront Management</h1>
+        <h1 className='mt-4'>Waterfront Management</h1>
         <h3>Financial solutions and wealth planning</h3>
         <Button className="mt-5" variant="outline-dark" href="#book">
           GET STARTED
