@@ -1,5 +1,6 @@
 import './About.scss';
 import { Row, Col } from 'react-bootstrap';
+import { EnvelopeFill, TelephoneFill } from 'react-bootstrap-icons';
 
 export default function About() {
   return (
@@ -21,12 +22,12 @@ export default function About() {
             <Col>
               <Col>
                 <h5>Call Us</h5>
-                <span>{'(613) 123-4567'}</span>
+                <span><TelephoneFill className='me-2'/>{'(613) 123-4567'}</span>
               </Col>
             </Col>
             <Col>
               <h5>Email</h5>
-              <span>contact@waterfrontmanagement.ca</span>
+              <span><EnvelopeFill className='me-2'/>contact@waterfrontmanagement.ca</span>
             </Col>
           </Row>
         </Col>
