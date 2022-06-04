@@ -1,25 +1,26 @@
 import './App.scss';
 import Navigation from './components/Navigation';
 import Footer from './components/Footer';
-import Home from './components/Home';
-import About from './components/About';
-import Values from './components/Values';
-import Staff from './components/Staff';
-import Pricing from './components/Pricing';
-import Book from './components/Book';
+import Layout from './components/Layout';
+import ValuesPage from './components/ValuesPage';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from "react-router-dom";
 
 function App() {
   return (
+    <Router>
     <div className="App">
       <Navigation/>
-      <Home/>
-      <About/>
-      <Values/>
-      <Staff/>
-      <Pricing/>
-      <Book/>
+        <Routes>
+          <Route path='/values' element={<ValuesPage/>}/>
+          <Route path='/' element={<Layout/>}/>
+        </Routes>
       <Footer/>
     </div>
+    </Router>
   );
 }
 

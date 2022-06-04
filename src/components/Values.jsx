@@ -1,5 +1,6 @@
 import './Values.scss';
 import { Row, Col, Card, Button } from 'react-bootstrap';
+import { Link } from "react-router-dom";
 
 export default function Values() {
   return (
@@ -41,7 +42,7 @@ export default function Values() {
       </Row>
       
       <Row className='mx-auto my-5 wrapper'>
-        <Button variant="outline-dark">LEARN MORE</Button>
+        <Link to='/values'><Button variant="outline-dark">LEARN MORE</Button></Link>
       </Row>
     </div>
   )
