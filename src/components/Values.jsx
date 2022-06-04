@@ -7,14 +7,14 @@ export default function Values() {
       <h2 className='text-center my-5'>OUR VALUES</h2>
       <Row className='d-flex'>
         <Col>
-        <Card>
-          <Card.Body>
-            <Card.Title className='text-center'>Value 1</Card.Title>
-            <Card.Text>
-              Text here
-            </Card.Text>
-          </Card.Body>
-        </Card>
+          <Card>
+            <Card.Body>
+              <Card.Title className='text-center'>Value 1</Card.Title>
+              <Card.Text>
+                Text here
+              </Card.Text>
+            </Card.Body>
+          </Card>
         </Col>
 
         <Col>

@@ -28,7 +28,7 @@ export default function Navigation() {
               <Nav.Link href="#staff" className='mx-2'>Our Staff</Nav.Link>
               <Nav.Link href="#pricing" className='mx-2'>Pricing</Nav.Link>
             </Nav>
-            <Button href='#values'>BOOK NOW</Button>
+            <Button href='#book'>BOOK NOW</Button>
           </Navbar.Collapse>
         </Container>
       </Navbar>

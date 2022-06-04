@@ -20,14 +20,12 @@ export default function About() {
           <h4 className='mt-5'>Want to ask a question?</h4>
           <Row>
             <Col>
-              <Col>
-                <h5>Call Us</h5>
-                <span><TelephoneFill className='me-2'/>{'(613) 123-4567'}</span>
-              </Col>
+              <h5>Call Us</h5>
+              <span><TelephoneFill size={20} className='me-2'/>{'(613) 123-4567'}</span>
             </Col>
             <Col>
               <h5>Email</h5>
-              <span><EnvelopeFill className='me-2'/>contact@waterfrontmanagement.ca</span>
+              <span><EnvelopeFill size={20} className='me-2'/>contact@waterfrontmanagement.ca</span>
             </Col>
           </Row>
         </Col>
@@ -44,7 +42,7 @@ export default function About() {
             <h6 className='text-center mb-5 mt-0'>Address here</h6>
           </Col>
           
-          <Col className='m-auto w-50'>
+          <Col className='m-auto'>
             <h5 className='text-center'><b>Hours</b></h5>
             <Row>
               <Col className='text-end me-4'>Mon - Fri</Col>
