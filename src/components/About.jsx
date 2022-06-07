@@ -5,8 +5,9 @@ import { EnvelopeFill, TelephoneFill } from 'react-bootstrap-icons';
 export default function About() {
   return (
     <div id='about'>
-      <Row className='p-2'>
-        <h2 className='text-center mt-5'>ABOUT US</h2>
+      <h2 className='text-center mt-5'>ABOUT US</h2>
+      <Row xl={7} className='p-2 d-flex'>
+        
         <Col xl={12} xxl={7} className='p-5'>
           <h4>Investment solutions and plans that adapt and achieve.</h4>
           <p>Waterfront advisors get to know you and your family’s goals so they can help keep you on track through life’s changes.</p>
@@ -29,8 +30,8 @@ export default function About() {
             </Col>
           </Row>
         </Col>
-        <Col xl={12} xxl={5} className='justify-content-center'>
-          <Col>
+        <Row lg={12} xl={5} className='justify-content-center'>
+          <Col lg={8} xl={5}>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2800.4466850625295!2d-75.70229598425153!3d45.420496244379315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0454537ca11d%3A0xc1dca24fb1e5b26e!2s99%20Bank%20St%2C%20Ottawa%2C%20ON%20K1P%206B9!5e0!3m2!1sen!2sca!4v1654211947438!5m2!1sen!2sca"
               height="400" 
               width="100%" 
@@ -42,7 +43,7 @@ export default function About() {
             <h6 className='text-center mb-5 mt-0'>Address here</h6>
           </Col>
           
-          <Col className='m-auto'>
+          <Col lg={4} xl={5}>
             <h5 className='text-center'><b>Hours</b></h5>
             <Row>
               <Col className='text-end me-4'>Mon - Fri</Col>
@@ -57,7 +58,7 @@ export default function About() {
               <Col>CLOSED</Col>
             </Row>
           </Col>
-        </Col>
+        </Row>
       </Row>
     </div>
   )
