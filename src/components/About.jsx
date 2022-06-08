@@ -20,13 +20,13 @@ export default function About() {
 
             <h4 className='mt-5'>Want to ask a question?</h4>
             <Row>
-              <Col>
-                <h5>Call Us</h5>
-                <span><TelephoneFill size={20} className='me-2'/>{'(613) 123-4567'}</span>
+              <Col sm={6} xs={12} className='my-3'>
+                <h5><TelephoneFill size={20} className='me-2'/>Call Us</h5>
+                <span>{'(613) 123-4567'}</span>
               </Col>
-              <Col>
-                <h5>Email</h5>
-                <span><EnvelopeFill size={20} className='me-2'/>contact@waterfrontmanagement.ca</span>
+              <Col sm={6} xs={12} className='my-3'>
+                <h5><EnvelopeFill size={20} className='me-2'/>Email</h5>
+                <span>contact@waterfrontmanagement.ca</span>
               </Col>
             </Row>
           </Col>
