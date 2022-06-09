@@ -11,12 +11,15 @@ export default function About() {
           <Col xl={12} xxl={6} className='p-5'>
             <h4>Investment solutions and plans that adapt and achieve.</h4>
             <p>Waterfront advisors get to know you and your family’s goals so they can help keep you on track through life’s changes.</p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-              dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-              non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
+            <h4>What services do we offer?</h4>
+            <ul>
+              <li>RRSP, TFSA, RESP, and non-registered account management</li>
+              <li>Stock, Bond, ETF, and Mutual Fund investments</li>
+              <li>Personally curated investment plans</li>
+              <li>Work directly with an expert</li>
+              <li>Tax planning</li>
+              
+            </ul>
 
             <h4 className='mt-5'>Want to ask a question?</h4>
             <Row>
