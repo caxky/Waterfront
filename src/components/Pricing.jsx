@@ -73,7 +73,7 @@ export default function Pricing() {
 
       <Row className='mx-auto mb-5 text-center wrapper'>
         <h4 className='mb-3'>Need to manage more than $1.5M?</h4>
-        <Button>CONTACT US</Button>
+        <Button href="#book">CONTACT US</Button>
       </Row>
     </div>
   )

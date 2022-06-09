@@ -47,7 +47,7 @@ export default function Staff() {
       </Row>
       
       <Row className='mx-auto mb-5 wrapper'>
-        <Button>BOOK NOW</Button>
+        <Button href="#book">BOOK NOW</Button>
       </Row>
     </div>
   )
