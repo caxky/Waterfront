@@ -7,8 +7,8 @@ export default function Values() {
     <div className='my-5 py-2 values' id='values'>
       <h2 className='text-center my-5'>OUR VALUES</h2>
       <Row className='d-flex'>
-        <Col>
-          <Card>
+        <Col className='mb-5' xs={12} lg={4}>
+          <Card className='h-100'>
             <Card.Body>
               <Card.Title className='text-center'>Passion</Card.Title>
               <Card.Text>
@@ -19,8 +19,8 @@ export default function Values() {
           </Card>
         </Col>
 
-        <Col>
-          <Card>
+        <Col className='mb-5' xs={12} lg={4}>
+          <Card className='h-100'>
             <Card.Body>
               <Card.Title className='text-center'>Empathy</Card.Title>
               <Card.Text>
@@ -31,8 +31,8 @@ export default function Values() {
           </Card>
         </Col>
 
-        <Col>
-          <Card>
+        <Col className='mb-5' xs={12} lg={4}>
+          <Card className='h-100'>
             <Card.Body>
               <Card.Title className='text-center'>Innovation</Card.Title>
               <Card.Text>
@@ -44,7 +44,7 @@ export default function Values() {
         </Col>
       </Row>
       
-      <Row className='mx-auto my-5 wrapper'>
+      <Row className='mx-auto mb-5 wrapper'>
         <Link to='/values'><Button variant="outline-dark">LEARN MORE</Button></Link>
       </Row>
     </div>

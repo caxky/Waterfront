@@ -6,8 +6,8 @@ export default function Staff() {
     <div className='my-5 py-2 staff' id='staff'>
       <h2 className='text-center my-5'>OUR STAFF</h2>
       <Row className='d-flex'>
-        <Col>
-          <Card>
+        <Col className='mb-5' xs={12} lg={4}>
+          <Card className='h-100'>
             <Card.Img variant='top' className='p-3' src='./images/george-pauler.jpg' />
             <Card.Body>
               <Card.Title className='text-center'>George Pauler, CFA, CFP</Card.Title>
@@ -19,8 +19,8 @@ export default function Staff() {
           </Card>
         </Col>
 
-        <Col>
-          <Card>
+        <Col className='mb-5' xs={12} lg={4}>
+          <Card className='h-100'>
             <Card.Img variant='top' className='p-3' src='./images/eric-chen.jpg' />
             <Card.Body>
               <Card.Title className='text-center'>Eric Chen, CFA</Card.Title>
@@ -32,8 +32,8 @@ export default function Staff() {
           </Card>
         </Col>
 
-        <Col>
-          <Card>
+        <Col className='mb-5' xs={12} lg={4}>
+          <Card className='h-100'>
             <Card.Img variant='top' className='p-3' src='./images/fredrick-smith.jpg' />
             <Card.Body>
               <Card.Title className='text-center'>Fredrick Smith</Card.Title>
@@ -46,7 +46,7 @@ export default function Staff() {
         </Col>
       </Row>
       
-      <Row className='mx-auto my-5 wrapper'>
+      <Row className='mx-auto mb-5 wrapper'>
         <Button>BOOK NOW</Button>
       </Row>
     </div>
