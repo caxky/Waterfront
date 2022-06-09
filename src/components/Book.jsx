@@ -61,6 +61,7 @@ export default function Book() {
             <option value="1">$0 - $249,999</option>
             <option value="2">$250,000 - $749,999</option>
             <option value="3">$750,000 - $1,499,999</option>
+            <option value="4">$1,500,000+</option>
           </Form.Select>
         </Form.Group>
 
