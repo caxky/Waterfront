@@ -9,34 +9,33 @@ export default function Values() {
       <Row className='d-flex'>
         <Col className='mb-5' xs={12} lg={4}>
           <Card className='h-100'>
-            <Card.Body>
+            <Card.Body className='text-center'>
               <Card.Title className='text-center'>Passion</Card.Title>
-              <Card.Img variant='top' className='p-5' src='./images/passion.png' />
+              <Card.Img variant='top' className='p-4' src='./images/passion.png' />
+              <Link to='/values'><Button variant="outline-dark">LEARN MORE</Button></Link>
             </Card.Body>
           </Card>
         </Col>
 
         <Col className='mb-5' xs={12} lg={4}>
           <Card className='h-100'>
-            <Card.Body>
-              <Card.Title className='text-center'>Commitment</Card.Title>
-              <Card.Img variant='top' className='p-5' src='./images/commitment.png' />
+            <Card.Body className='text-center'>
+              <Card.Title>Commitment</Card.Title>
+              <Card.Img variant='top' className='p-4' src='./images/commitment.png' />
+              <Link to='/values'><Button variant="outline-dark">LEARN MORE</Button></Link>
             </Card.Body>
           </Card>
         </Col>
 
         <Col className='mb-5' xs={12} lg={4}>
           <Card className='h-100'>
-            <Card.Body>
+            <Card.Body className='text-center'>
               <Card.Title className='text-center'>Innovation</Card.Title>
-              <Card.Img variant='top' className='p-5' src='./images/innovation.png' />
+              <Card.Img variant='top' className='p-4' src='./images/innovation.png' />
+              <Link to='/values'><Button variant="outline-dark">LEARN MORE</Button></Link>
             </Card.Body>
           </Card>
         </Col>
-      </Row>
-      
-      <Row className='wrapper mb-5'>
-        <Link to='/values'><Button variant="outline-dark">LEARN MORE</Button></Link>
       </Row>
     </div>
   )
