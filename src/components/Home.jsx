@@ -12,7 +12,7 @@ export default function Home() {
         ></img>
         <h1 className='mt-4'>Waterfront Management</h1>
         <h3>Financial solutions and wealth planning</h3>
-        <Button className="mt-5" variant="outline-dark" href="#book">
+        <Button className="mt-5" variant="outline-dark" href="/#pricing">
           GET STARTED
         </Button>
         <div class="down-arrow"></div>

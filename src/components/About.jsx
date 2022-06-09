@@ -4,7 +4,7 @@ import { EnvelopeFill, TelephoneFill } from 'react-bootstrap-icons';
 
 export default function About() {
   return (
-    <div className='about'>
+    <div className='about' id='about'>
       <h2 className='text-center mt-5'>ABOUT US</h2>
       <Container className='mx-auto'>
         <Row xl={7} className='p-2 d-flex'>

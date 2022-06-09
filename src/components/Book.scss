@@ -20,10 +20,19 @@
 
   form {
     margin: auto;
+    padding: 15px;
     max-width: 800px;
 
     select, input {
-      margin: 5px;
+      margin-bottom: 5px;
+    }
+
+    .message {
+      margin-bottom: 10px;
+
+      input {
+        min-height: 81px;
+      }
     }
   }
 }

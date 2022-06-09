@@ -7,7 +7,7 @@ export default function Navigation() {
       <Row className='ms-auto pe-2 py-1 text-end'>
         <span>{"(613) 123-4567"} | {"contact@waterfrontmanagement.ca"}</span>
       </Row>
-      <Navbar bg="light" variant="light" expand="md">
+      <Navbar bg="light" variant="light" expand="lg">
         <Container>
           <Navbar.Brand href="#home">
             <img

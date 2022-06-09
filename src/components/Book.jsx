@@ -31,7 +31,7 @@ export default function Book() {
         <Form.Control type='name' placeholder='Name' />
 
         <div className='d-flex'>
-          <Form.Control type='email' placeholder='Email Address' />
+          <Form.Control type='email' placeholder='Email Address' className='me-2'/>
           <Form.Control type='phone' placeholder='Phone Number' />
         </div>
 
@@ -47,15 +47,17 @@ export default function Book() {
         <Form.Group>
           <Form.Select>
             <option selected>Choose an expert</option>
-            <option value="george">George Pauler</option>
-            <option value="eric">Eric Chen</option>
+            <option value="george">George Pauler, CFA, CFP</option>
+            <option value="eric">Eric Chen, CFA</option>
             <option value="fredrick">Fredrick Smith</option>
           </Form.Select>
         </Form.Group>
 
-        <div className='d-flex'>
-          <Form.Control type="text" placeholder="Message"></Form.Control>
-          <Col>
+        <div className='d-sm-flex'>
+          <Col xs={12} sm={7} className='message me-sm-2'>
+            <Form.Control type="text" placeholder="Message"></Form.Control>
+          </Col>
+          <Col xs={12} sm={5}>
             <Form.Group>
               <Form.Select>
                 <option selected>Select a time</option>
@@ -70,7 +72,7 @@ export default function Book() {
         </div>
 
         <div className='text-end mt-3'>
-          <Button type='submit' onClick={handleShow}>
+          <Button onClick={handleShow}>
             BOOK NOW
           </Button>
         </div>
