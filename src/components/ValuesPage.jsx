@@ -6,7 +6,16 @@ export default function ValuesPage() {
     return (
         <div className='valuespage'>
             <Container>
-                <div className='wrapper mb-5 px-4'>
+                <div className='wrapper mb-5 px-1'>
+                    <h3>Who Are We?</h3>
+                    <p>
+                        Unlike the large investment institutions, we embody a philosophy of independent, unbiased advice with an unwavering commitment to delivering true wealth management. 
+                        We do this by offering harmonized advice that intricately weaves defensive portfolio construction, income planning and projecting, tax minimization planning, estate preservation, 
+                        and trust management, all with a continuous focus on the management of risk. Our advisors have been carefully selected based on high standards of excellence and integrity. 
+                        They tailor client wealth plans with no incentive to use proprietary products or investment vehicles.
+                    </p>
+                </div>
+                <div className='wrapper mb-5 px-1'>
                     <h3>Waterfront Management Core Values</h3>
                     <p>
                         Waterfront was founded on a simple, yet revolutionary belief that doing the right thing for clients and 
