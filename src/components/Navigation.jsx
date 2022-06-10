@@ -1,4 +1,5 @@
 import './Navigation.scss';
+import { Link } from 'react-router-dom';
 import { Navbar, Nav, Container, Button, Row } from 'react-bootstrap';
 
 export default function Navigation() {
@@ -9,16 +10,18 @@ export default function Navigation() {
       </Row>
       <Navbar bg="light" variant="light" expand="lg">
         <Container>
-          <Navbar.Brand href="/#">
-            <img
-              src='logo.svg'
-              width='40'
-              height='40'
-              className="d-inline-block align-top"
-              alt="Waterfront management logo"
-            >
-            </img>
-          </Navbar.Brand>
+          <Link to="/">
+            <Navbar.Brand>
+              <img
+                src='logo.svg'
+                width='40'
+                height='40'
+                className="d-inline-block align-top"
+                alt="Waterfront management logo"
+              >
+              </img>
+            </Navbar.Brand>
+          </Link>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="m-auto">
