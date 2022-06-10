@@ -9,7 +9,7 @@ export default function Navigation() {
       </Row>
       <Navbar bg="light" variant="light" expand="lg">
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="/#">
             <img
               src='logo.svg'
               width='40'
