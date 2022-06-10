@@ -26,10 +26,10 @@ export default function Navigation() {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="m-auto">
               <Nav.Link href="/#home" className='mx-2'>Home</Nav.Link>
-              <Nav.Link href="/#about" className='mx-2'>About Us</Nav.Link>
-              <Nav.Link href="/#values" className='mx-2'>Our Values</Nav.Link>
-              <Nav.Link href="/#staff" className='mx-2'>Our Staff</Nav.Link>
-              <Nav.Link href="/#pricing" className='mx-2'>Pricing</Nav.Link>
+              <Nav.Link href="/#about" className='mx-2'>About</Nav.Link>
+              <Nav.Link href="/#values" className='mx-2'>Values</Nav.Link>
+              <Nav.Link href="/#staff" className='mx-2'>Staff</Nav.Link>
+              <Nav.Link href="/#pricing" className='mx-2'>Prices</Nav.Link>
             </Nav>
             <Button href='/#book'>BOOK NOW</Button>
           </Navbar.Collapse>
