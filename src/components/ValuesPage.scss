@@ -1,0 +1,26 @@
+.valuespage {
+  margin-top: 180px;
+
+  .card {
+    box-shadow: 5px 5px 5px rgb(141, 141, 141);
+
+    .wrapper {
+      width: 100%;
+    }
+
+    .rounded-circle {
+      min-height: 140px;
+      min-width: 140px;
+      height: 7vw;
+      width: 7vw;
+      background-color: rgb(78, 78, 78);
+
+      svg {
+        color: white;
+        margin-top: 20%;
+        width: 60%;
+        height: 60%;
+      }
+    }
+  }
+}
