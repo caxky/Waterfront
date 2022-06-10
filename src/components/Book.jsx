@@ -18,8 +18,6 @@ export default function Book() {
   const handleChange = (e) => {
     updateFormData({
       ...formData,
-
-      // Trimming any whitespace
       [e.target.name]: e.target.value.trim()
     });
   };
@@ -27,7 +25,9 @@ export default function Book() {
   const handleClose = () => {
     setBookSuccess(false);
     document.body.style.overflow = 'unset';
+    window.location.reload();
   };
+
   const handleShow = () => {
     console.log(formData);
     setBookSuccess(true);
